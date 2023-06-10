@@ -36,7 +36,7 @@ return [
     */
 
     'guards' => [
-        'web' => [
+        'api' => [
             'driver' => 'keycloak',
             'provider' => 'users',
         ],
